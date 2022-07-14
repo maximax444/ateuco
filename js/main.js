@@ -1,9 +1,9 @@
 $('.lend-kinds__block').on({
     mouseenter: function () {
-        $(this).find('.lend-kinds__descr').slideDown();
+        $(this).find('.lend-kinds__descr').stop().slideDown();
     },
     mouseleave: function () {
-        $(this).find('.lend-kinds__descr').slideUp();
+        $(this).find('.lend-kinds__descr').stop().slideUp();
     }
 });
 
